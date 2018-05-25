@@ -45,19 +45,19 @@ button:focus {
   outline: none;
 }
 
-#twitter {
+#twitter a {
   color: #55acee;
   background: white;
   border: white 2px solid;
 }
 
-#linkedin {
+#linkedin a {
   color: #007cb7;
   background: white;
   border: white 2px solid;
 }
 
-#github, #email {
+#github a, #email a {
   color: #333333;
   background: white;
   border: white 2px solid;
