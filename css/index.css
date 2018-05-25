@@ -1,0 +1,220 @@
+/* ============================================================
+  Landing Page
+============================================================ */
+#author__image {
+  width: 125px;
+  height: 125px;
+  border-radius: 50%;
+  border: 5px solid white;
+  margin-bottom: 10px;
+  -webkit-animation-duration: 1.5s;
+  -webkit-animation-delay: .5s;
+}
+#profile__name {
+  font-family: 'Montserrat', sans-serif;
+  -webkit-animation-duration: 1.5s;
+  -webkit-animation-delay: .8s;
+}
+#profile__asset {
+  color: #CCCCCC;
+  text-align: center;
+  font-size: 18px;
+  -webkit-animation-duration: 1.5s;
+  -webkit-animation-delay: 1.1s;
+}
+.module img {
+  margin-top: 35vh;
+}
+
+.profile__links {
+  -webkit-animation-duration: 1.5s;
+  -webkit-animation-delay: 1.4s;
+}
+button {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-size: 18px;
+  margin: 15px 5px 5px 5px;
+  background: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:focus {
+  outline: none;
+}
+
+#twitter {
+  color: #55acee;
+  background: white;
+  border: white 2px solid;
+}
+
+#linkedin {
+  color: #007cb7;
+  background: white;
+  border: white 2px solid;
+}
+
+#github, #email {
+  color: #333333;
+  background: white;
+  border: white 2px solid;
+}
+
+#twitter:hover{
+  border: #55acee 3px solid;
+}
+
+#linkedin:hover {
+  border: #007cb7 3px solid;
+}
+
+#github:hover, #email:hover {
+  border: #333333 3px solid;
+}
+
+/* ============================================================
+  Section Properties
+============================================================ */
+.section-define {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.section-define p {
+  font-size: 16px;
+  line-height: 26px;
+  font-family: 'Hind', sans-serif;
+  color: #666666;
+}
+
+.section-define h2{
+  font-size: 24px;
+}
+
+.section-progress {
+  background: #333333;
+  color: white;
+}
+
+
+
+
+
+
+
+/* ============================================================
+  Portfolio
+============================================================ */
+.portfolio a, img{
+  max-width: 40vh;
+  width: 100%;
+  height: auto;
+  border: 2px solid white;
+}
+
+/* ============================================================
+  Colors / General Tweaks
+============================================================ */
+.grey {
+  background: #f2f2f2;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+hr {
+  width: 70px;
+  height: 2px;
+  background: #dddddd;
+}
+
+body, html {
+  overflow-x: hidden;
+}
+
+@-ms-viewport {
+    width: device-width;
+}
+
+@-ms-viewport .module{
+    width: device-width;
+    margin-top: 20vh;
+}
+
+
+
+/* ============================================================
+  SECTIONS (DONT CHANGE ANY INDENTS)
+============================================================ */
+section.module:last-child {
+    margin-bottom: 0;
+}
+section.module p {
+    margin-bottom: 40px;
+    font-size: 16px;
+    font-weight: 300;
+}
+section.module p:last-child {
+    margin-bottom: 0;
+}
+section.module.content {
+    padding: 40px 0;
+}
+section.module.parallax {
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+section.module.parallax h1 {
+    text-align: center;
+    color: white;
+}
+section.module.parallax-1 {
+    background-color: #333333;
+    background-image: url("../assets/profile__background.jpg");
+}
+
+/* ============================================================
+  ANIMATIONS
+============================================================ */
+.animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.fadeIn {
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+}
